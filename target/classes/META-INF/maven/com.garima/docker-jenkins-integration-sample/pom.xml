@@ -23,6 +23,14 @@
     </dependency>
   </dependencies>
   <build>
+  
+				 <defaultGoal>install</defaultGoal>
+						
+					
+						
+					
+			
   <finalName>docker-jenkins-integration-sample</finalName>
+  
   </build>
 </project>
