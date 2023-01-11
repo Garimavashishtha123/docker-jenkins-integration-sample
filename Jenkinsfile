@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('Build Maven'){
             steps{
-                checkout([$class: 'GitSCM', branches: [[name: '*/maater']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Garimavashishtha123/automation']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/maater']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Garimavashishtha123/docker-jenkins-integration-sample']]])
                 sh 'mvn clean install'
             }
         }
